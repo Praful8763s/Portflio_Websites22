@@ -221,42 +221,59 @@ section {
     justify-content: space-between;
 }
 
-.home-sci a {
-    position: relative;
-    display: inline-flex;
+/* Social Icons Section */
+.home-sci {
+    background-color: #007BFF; /* Blue background */
+    padding: 20px;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: .2rem solid var(--main-color);
-    border-radius: 50%;
-    font-size: 20px;
-    color: var(--main-color);
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
+    gap: 15px;
 }
 
+.home-sci a {
+    color: white; /* White color for the icons */
+    font-size: 2em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+/* 3D Hover Effect */
 .home-sci a:hover {
-    color: var(--bg-color);
+    transform: translateY(-5px); /* Lift icon on hover */
+    color: #f0f0f0; /* Slightly lighter color on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-.home-sci a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: var(--main-color);
-    z-index: -1;
-    transition: .5s;
+/* Icon Container Styling */
+.home-sci i {
+    transition: transform 0.3s ease;
 }
 
-.home-sci a:hover::before {
-    width: 100%;
+/* Animated Icon Hover */
+.home-sci a:hover i {
+    transform: scale(1.2); /* Slight zoom effect on icon */
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .home-sci {
+        gap: 10px;
+        padding: 15px;
+    }
+    .home-sci a {
+        font-size: 1.8em; /* Slightly smaller icons on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .home-sci {
+        gap: 8px;
+    }
+    .home-sci a {
+        font-size: 1.5em; /* Even smaller icons on mobile screens */
+    }
+}
+
 
 .home-imgHover {
     position: absolute;
