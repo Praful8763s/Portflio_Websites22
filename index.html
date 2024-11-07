@@ -1,151 +1,459 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by Praful Sonwane</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Potfolio</title>
 
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<body>
-<!-- partial:index.partial.html -->
-<!--
 
-Follow me on
-Instagram: https://www.instagram.com/college_wishlist
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+    <!-- Resume Download Section -->
 
 
 
--->
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Praful Sonwane</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Full Stack Developer</h3>
 
-<div class="carousel">
-    <div class="carousel-item">
-        <div class="carousel-box">
-            <div class="title">Hi 👋</div>
-            <div class="num">01</div>
-			<img src="" />
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p> Seeking a challenging position in Software Engineering to leverage my expertise in Java, SQL, Python,
+                and web development. Aiming to contribute to innovative projects that combine practical problem-solving with
+                cutting-edge technology..
+                <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/praful.sonwane.961"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/Sonw6618Praful"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/praful-sonwane-2a1a2a222/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/tribal_chief032s/?__pwa=1"><i class ='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Praful8763s"><i class ='bx bxl-github'></i></a>
+            <a href="https://www.youtube.com/@futuretech13s"><i class ='bx bxl-youtube'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="about-img">
+            <img src="images\IMG_20241029_220547_059.jpg" class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Hi there! Glad to see you here.<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Hello! PRAFUL SONWANE here. A technology fanatic!<br>
+                Currently, I am currently working on Java and Python Web Applications.I was completed B.Tech [CSE] at Shivajirao Kadam Institute of
+                of Technology and Management Technical-Campus In Indore.
+                My early education was completed at Pithampur Public H.S School.
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box btns">
+                <a href="#contact" class="btn">Contact Me</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2024</div>
+                            <h3>B.Tech[CSE] - Shivajirao Kadam Institute of Technology and Mangement Technical-Campus,
+                                Indore</h3>
+                            <p>The Computer Science Engineering program at Shivajirao Kadam Institute focuses on
+                                foundational and advanced topics in computing, software development, and technology. It
+                                equips students with skills in programming, algorithms, database management, and web
+                                development, emphasizing practical application through labs, projects, and internships
+                            <p><b>Percentage: 80.7</b></p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>12th(Science) - Pithampur Public H.S School</h3>
+                            <p>Completed 12th grade with a focus on Science (PCM) at Pithampur Public H.S School, where
+                                I built a strong foundation in Physics, Chemistry, and Mathematics, enhancing analytical
+                                and problem-solving skills essential for my career in technology and engineering."</p>
+                            <p><b>Percentage: 67.8</b></p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
+                            <h3>10th - Pithampur Public H.S School</h3>
+                            <p>Completed 10th grade at Pithampur Public H.S School, MPBSE, achieving a strong foundation
+                                in science and mathematics. Developed critical thinking, discipline, and a well-rounded
+                                academic skill set, with a percentage of 77%</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>May 2023 - June 2023</div>
+
+                            <h3>Java Developer Intern - Technohack-Edutech</h3>
+                            <p>As a Java Developer Intern at Technohack Edutech, I contributed to developing and
+                                optimizing Java-based applications. My responsibilities included writing clean,
+                                efficient code, performing debugging, and enhancing functionalities under the guidance
+                                of senior developers. I also collaborated with the team to design, test, and implement
+                                software solutions, gaining hands-on experience with Java frameworks and industry best
+                                practices. This internship strengthened my technical skills and provided valuable
+                                experience in a professional development environment.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
+                            <h3>Web Developer Intern - CodeAlpha</h3>
+                            <p>As a Web Developer Intern at CodeAlpha, I gained hands-on experience in front-end and
+                                back-end web development. My responsibilities included creating responsive web pages,
+                                enhancing UI/UX design, and working closely with a team to implement features that
+                                improved website functionality. I utilized HTML, CSS, JavaScript, and various frameworks
+                                to develop and troubleshoot code, ensuring optimal performance and user experience. This
+                                role allowed me to sharpen my technical skills and collaborate in a fast-paced,
+                                project-driven environment.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Java Developer Intern - InternPe</h3>
+                            <p>As a Java Developer Intern at InternPe, I contributed to developing and
+                                optimizing Java-based applications. My responsibilities included writing clean,
+                                efficient code, performing debugging, and enhancing functionalities under the guidance
+                                of senior developers. I also collaborated with the team to design, test, and implement
+                                software solutions, gaining hands-on experience with Java frameworks and industry best
+                                practices. This internship strengthened my technical skills and provided valuable
+                                experience in a professional development environment.</p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>MySQL <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Framework<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>ReactJS <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Springboat , Hibernate , JMVC <span>67%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Django , Flask<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>FastAPI <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certificates & Achievements Section -->
+<section class="certificates" id="certificates">
+    <h2 class="heading">Certificates & <span>Achievements</span><span class="animate scroll" style="--i:1;"></span></h2>
+    
+    <div class="achievements-container">
+        <!-- Certificate 1: Full Stack Java Development -->
+        <div class="achievement-box">
+            <h3>Full Stack Java Development</h3>
+            <p>Issued by: Simplilearn</p>
+        </div>
+
+        <!-- Certificate 2: Java Development -->
+        <div class="achievement-box">
+            <h3>Java Development</h3>
+            <p>Issued by: IIT Bombay</p>
+        </div>
+
+        <!-- Certificate 3: C Programming -->
+        <div class="achievement-box">
+            <h3>C Programming</h3>
+            <p>Issued by: Great Learning</p>
+        </div>
+
+        <!-- Certificate 4: Website Development -->
+        <div class="achievement-box">
+            <h3>Website Development</h3>
+            <p>Issued by: Technovation InterCollege</p>
+        </div>
+
+        <!-- Certificate 5: Blockchain Developer -->
+        <div class="achievement-box">
+            <h3>Blockchain Developer</h3>
+            <p>Issued by: Simplilearn</p>
+        </div>
+
+        <!-- Certificate 6: Basics of Python -->
+        <div class="achievement-box">
+            <h3>Basics of Python</h3>
+            <p>Issued by: Infosys</p>
+        </div>
+
+        <!-- Certificate 7: Innovative Idea Presentation -->
+        <div class="achievement-box">
+            <h3>Innovative Idea Presentation</h3>
+            <p>Issued by: Technovation, InterCollege</p>
+        </div>
+
+        <!-- Certificate 8: Python Certification -->
+        <div class="achievement-box">
+            <h3>Python Certification</h3>
+            <p>Issued by: HackerRank</p>
+        </div>
+
+        <!-- Certificate 9: SQL Certification -->
+        <div class="achievement-box">
+            <h3>SQL Certification</h3>
+            <p>Issued by: HackerRank</p>
+        </div>
+        <div class="achievement-box">
+            <h3>Software Engineer Test Certification</h3>
+            <p>Issued by: HackerRank</p>
         </div>
     </div>
+</section>
 
-    <div class="carousel-item">
-        <div class="carousel-box">
-            <div class="title">I want to tell you Something 😍</div>
-            <div class="num">02</div>
-			<img src="" />
+    <!-- Projects section design -->
+<section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="projects-container">
+        <!-- Project 1: Online Voting System -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/Online-Voting-Projects" target="_blank">Online Voting System</a></h3>
+            <p>A web-based voting system enabling secure online elections. Designed user authentication and vote encryption using Python and MySQL. Ensured seamless voting process with real-time vote count updates.</p>
+        </div>
+
+        <!-- Project 2: Speech to Text Conversion for Inmates Behavior Analysis -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/Speech_to_Text_conversion_behaviour-_analysis" target="_blank">Speech to Text Conversion for Inmates Behavior Analysis</a></h3>
+            <p>Developed a speech-to-text system that analyzes inmate behavior based on their speech patterns using Python’s SpeechRecognition API and NLP techniques.</p>
+        </div>
+
+        <!-- Project 3: EyeCareX - Empowering Patients Using Blockchain -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/EyeCarex-Empowering-with-Pat" target="_blank">EyeCareX - Empowering Patients Using Blockchain</a></h3>
+            <p>Built a patient management system with Blockchain for secure medical record keeping. Leveraged Python and smart contracts to ensure immutable health data.</p>
+        </div>
+
+        <!-- Project 4: Chatting Application -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/ChattingApplication" target="_blank">Chatting Application</a></h3>
+            <p>Created a real-time chat application using Java and MySQL, implementing WebSockets for bidirectional communication and user authentication.</p>
+        </div>
+
+        <!-- Project 5: Jarvis Projects using Iron Man Voice Command -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/Jarvis_Projects033" target="_blank">Jarvis Projects using Iron Man Voice Command</a></h3>
+            <p>Developed a voice command-based assistant in Python to execute system commands, interact with web APIs, and control smart home devices.</p>
+        </div>
+
+        <!-- Project 6: Cake Website Using Django -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/CakeWebSite-.git" target="_blank">Cake Website Using Django</a></h3>
+            <p>Built a fully responsive website for an online bakery shop using Django, integrating payment gateway and order tracking features with MySQL as the backend.</p>
+        </div>
+
+        <!-- Project 7: Virtual Classroom using Flask -->
+        <div class="project-box">
+            <h3><a href="https://github.com/Praful8763s/Virtualclassroomapp.git" target="_blank">Virtual Classroom using Flask</a></h3>
+            <p>Created a virtual classroom platform enabling instructors to manage courses and students. Built using Flask, incorporating a comments system for lectures and session management.</p>
         </div>
     </div>
+</section>
 
-    <div class="carousel-item">
-        <div class="carousel-box">
-            <div class="title">Please Keep Dragging 😊 </div>
-            <div class="num">03</div>
-			<img src="" />
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+    <section class="resume-download" id="resume">
+        <h2 class="heading">Download My <span>Resume</span></h2>
+        
+        <div class="download-container">
+            <a href="Myresume (3) (4).pdf" class="download-btn" download>
+                <i class="fa fa-download"></i> Download Resume
+            </a>
         </div>
-    </div>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | Designed and
+                Maintenance by Praful Sonwane | All
+                Rights Reserved</p>
 
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">You are Amazing 🤩 </div>
-			<div class="num">04</div>
-			<img src="" />
+            <span class="animate scroll" style="--i:1;"></span>
         </div>
-	</div>
 
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">Most Beautiful Person on Earth 💯</div>
-			<div class="num">05</div>
-			<img src="" />
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
+            <span class="animate scroll" style="--i:3;"></span>
         </div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">And Cutest 🎀</div>
-			<div class="num">06</div>
-			<img src="" />
-        </div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">And Since i met You 😗 </div>
-			<div class="num">07</div>
-			<img src="" />
-        </div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">I feel very Lucky Everyday 😇</div>
-			<div class="num">08</div>
-			<img src="" />
-        </div>
-	</div>
-
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">and I have Crush on You 🥰</div>
-			<div class="num">09</div>
-			<img src="" />
-        </div>
-	</div>
-	<div class="carousel-item">
-		<div class="carousel-box">
-			<div class="title">I love You ❤️</div>
-			<div class="num">10</div>
-			<img src="" />
-        </div>
-	</div>
-</div>
+    </footer>
+   
 
 
-
-<a href="https://www.instagram.com/college_wishlist" target="_blank" class="logo">C</a>
-<div class="social">
-  <a href="#" target="_blank"
-		><svg>
-			<use xlink:href="#ico-linkedin"></use></svg
-	></a>
-	<a href="https://www.instagram.com/college_wishlist" target="_blank"
-		><svg>
-			<use xlink:href="#ico-instagram"></use></svg
-></a>
-</div>
-
-<svg style="display: none">
-	<symbol id="ico-instagram" viewBox="0 0 35 35">
-		<circle opacity=".2" cx="17.5" cy="17.5" r="17" stroke="var(--fill)" fill="none"></circle>
-		<path
-			fill-rule="evenodd"
-			clip-rule="evenodd"
-			d="M24.944 20.476c.028-.457.042-1.282.042-2.476s-.014-2.019-.042-2.476c-.056-1.09-.378-1.93-.965-2.517s-1.422-.91-2.503-.965C21.018 12.014 20.194 12 19 12s-2.019.014-2.476.042c-1.081.047-1.92.368-2.517.965s-.918 1.436-.965 2.518C13.014 15.98 13 16.805 13 18c0 1.194.014 2.019.042 2.476.047 1.09.368 1.93.965 2.517s1.436.91 2.518.965c.466.028 1.29.042 2.475.042 1.184 0 2.01-.014 2.476-.042 1.072-.047 1.906-.368 2.503-.965.597-.597.918-1.436.965-2.517ZM19 13.075h-1.427c-.186 0-.438.01-.755.029a11.61 11.61 0 0 0-.797.07c-.215.028-.401.08-.56.154-.26.102-.489.251-.685.447-.196.196-.35.425-.461.685-.056.15-.103.336-.14.56a7.843 7.843 0 0 0-.084.811 7.113 7.113 0 0 0-.014.741c.01.178.01.453 0 .826-.01.373-.01.573 0 .601.01.028.01.228 0 .601s-.01.648 0 .826c.01.177.014.424.014.74 0 .318.028.588.084.812l.14.56c.112.26.265.489.461.685.196.196.425.345.685.447.15.056.336.108.56.154.224.047.49.07.797.07.308 0 .56.01.755.028.196.019.471.019.826 0 .354-.019.554-.019.601 0 .047.019.242.019.587 0s.62-.019.826 0c.205.019.456.01.755-.028.298-.037.569-.06.811-.07.242-.01.424-.06.546-.154.26-.102.494-.251.699-.447a1.75 1.75 0 0 0 .447-.686c.056-.149.103-.335.14-.559.038-.224.066-.494.084-.811.019-.317.023-.564.014-.741a11.82 11.82 0 0 1 0-.826c.01-.373.01-.573 0-.601-.01-.028-.01-.228 0-.601s.01-.648 0-.826c-.01-.177-.014-.424-.014-.74 0-.318-.028-.588-.084-.812l-.14-.56a1.956 1.956 0 0 0-1.147-1.133 3.979 3.979 0 0 0-.545-.153 3.915 3.915 0 0 0-.811-.07c-.326 0-.578-.01-.755-.028a5.916 5.916 0 0 0-.826 0c-.372.019-.568.019-.587 0Zm3.706 2.225c.14-.14.21-.308.21-.504a.57.57 0 0 0-.21-.503.767.767 0 0 0-.517-.21.718.718 0 0 0-.504.21.622.622 0 0 0-.21.503c.01.196.08.364.21.504s.299.21.504.21c.205 0 .377-.07.517-.21ZM22.063 18c0 .849-.298 1.576-.895 2.182a2.882 2.882 0 0 1-2.168.895 3.075 3.075 0 0 1-2.182-.895c-.606-.588-.904-1.315-.895-2.182.01-.867.308-1.594.895-2.182.588-.587 1.315-.886 2.182-.895.867-.01 1.59.29 2.168.895.578.606.876 1.333.895 2.182Zm-1.077 0a1.95 1.95 0 0 0-.573-1.413A1.897 1.897 0 0 0 19 16c-.56 0-1.03.196-1.413.587A2.001 2.001 0 0 0 17 18c-.01.55.186 1.021.587 1.413.401.391.872.587 1.413.587.54 0 1.012-.196 1.413-.587.4-.392.592-.863.573-1.413Z"
-			transform="translate(-1.5 -0.5)"
-			fill="var(--fill)"
-		></path>
-	</symbol>
-
-	<symbol id="ico-linkedin" viewBox="0 0 35 35">
-		<circle opacity=".2" cx="17.5" cy="17.5" r="17" stroke="var(--fill)" fill="none"></circle>
-		<path
-			fill-rule="evenodd"
-			clip-rule="evenodd"
-			d="M15.3025 14.0835C15.3025 14.3845 15.1934 14.6403 14.9752 14.851C14.757 15.0617 14.4786 15.167 14.14 15.167C13.8014 15.167 13.5267 15.0617 13.316 14.851C13.1053 14.6403 13 14.3807 13 14.0722C13 13.7637 13.1053 13.5079 13.316 13.3047C13.5267 13.1016 13.8051 13 14.1512 13C14.4974 13 14.772 13.1016 14.9752 13.3047C15.1783 13.5079 15.2874 13.7675 15.3025 14.0835ZM13.0677 23V16.0248H15.2348V23H13.0677ZM16.4763 16.0248C16.5064 16.8676 16.5214 17.6125 16.5214 18.2596V23H18.7111V18.9819C18.7111 18.7111 18.7336 18.5305 18.7788 18.4402C18.9895 17.8984 19.3582 17.6275 19.8849 17.6275C20.6223 17.6275 20.991 18.1317 20.991 19.14V23H23.158V18.8691C23.158 17.8758 22.9285 17.1272 22.4695 16.623C22.0105 16.1189 21.4048 15.8668 20.6524 15.8668C19.6742 15.8668 18.9594 16.243 18.5079 16.9955H18.4628L18.3499 16.0248H16.4763Z"
-			transform="translate(0 -1)"
-			fill="var(--fill)"
-		></path>
-	</symbol>
-</svg>
-
-<div class="cursor"></div>
-<div class="cursor cursor2"></div>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
+    <script src="script.js"></script>
 </body>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
-</body>
 </html>
